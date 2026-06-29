@@ -2,56 +2,143 @@
 
 ## 📌 Overview
 
-The AI Product Feedback Analyzer is a web application that helps businesses analyze customer reviews using Artificial Intelligence. Users can upload a CSV file containing app reviews, and the application generates interactive visualizations, sentiment analysis, AI-powered insights, and downloadable reports.
+AI Product Feedback Analyzer is an AI-powered web application that helps businesses analyze customer reviews from Play Store or App Store datasets.
 
-## ✨ Features
+The application automatically performs:
 
-* 📂 Upload customer review CSV files
-* 📊 Interactive dashboard with KPI cards
-* ⭐ Rating distribution analysis
-* 😊 Sentiment analysis
-* 📈 Review trend visualization
-* ☁️ Most frequent words analysis
-* 🤖 AI-powered insights using Google Gemini
-* 📄 Download AI-generated reports (TXT/PDF)
+- Rating Analysis
+- Sentiment Analysis
+- Data Visualization
+- AI-powered Product Insights
+- Report Generation
 
-## 🛠️ Tech Stack
+---
 
-* Python
-* Streamlit
-* Pandas
-* Matplotlib
-* Google Gemini API
-* ReportLab
+# ✨ Features
 
-## 📁 Project Structure
+✅ Upload CSV Reviews
 
-* app.py
-* requirements.txt
-* data/
-* charts/
-* reports/
-* utils/
+✅ Dashboard Metrics
 
-## ▶️ How to Run
+✅ Rating Distribution
 
-1. Clone the repository.
-2. Install dependencies:
+✅ Sentiment Analysis
+
+✅ Review Trend Analysis
+
+✅ Top Frequent Words
+
+✅ Google Gemini AI Insights
+
+✅ Download PDF Report
+
+---
+
+# 🛠️ Tech Stack
+
+- Python
+- Streamlit
+- Pandas
+- Matplotlib
+- Google Gemini API
+- ReportLab
+
+---
+
+# 📁 Project Structure
+
+```text
+AI_Product_Feedback_Analyzer
+
+│
+
+├── app.py
+
+├── requirements.txt
+
+├── README.md
+
+├── data
+
+├── utils
+
+├── charts
+
+├── reports
+
+├── screenshots
+
+└── assets
+```
+
+---
+
+# 🚀 Installation
+
+Clone repository
+
+```bash
+git clone https://github.com/IshwariPatil06/AI-Product-Feedback-Analyzer
+```
+
+Open folder
+
+```bash
+cd AI-Product-Feedback-Analyzer
+```
+
+Install packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the application:
+Run
 
 ```bash
 streamlit run app.py
 ```
 
-## 🌐 Live Demo
+---
+
+# 📸 Project Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Metrics
+
+![Metrics](screenshots/metrics.png)
+
+### Rating Distribution
+
+![Rating](screenshots/rating_chart.png)
+
+### Sentiment Analysis
+
+![Sentiment](screenshots/sentiment_chart.png)
+
+### Review Trend
+
+![Trend](screenshots/review_trend.png)
+
+### AI Insights
+
+![AI](screenshots/ai_insights.png)
+
+---
+
+# 🌐 Live Demo
 
 https://ai-appuct-feedback-analyzer-hrjiynfigzeompn3wsgww4.streamlit.app/
 
-## 👨‍💻 Author
+---
 
-Computer Science Student | AI & Data Analytics Enthusiast
+# 👨‍💻 Author
+
+Ishwari Patil
+
+First-Year Computer Science Student
+
+Interested in Artificial Intelligence, Data Analytics, and Software Development.
