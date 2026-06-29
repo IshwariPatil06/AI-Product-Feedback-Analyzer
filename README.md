@@ -127,6 +127,10 @@ streamlit run app.py
 
 ![AI](screenshots/ai_insights.png)
 
+### PDF Report Generation
+
+![PDF Report](screenshots/pdf_report.png)
+
 ---
 
 # 🌐 Live Demo
